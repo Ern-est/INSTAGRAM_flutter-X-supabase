@@ -1,16 +1,25 @@
-# insta_clone
+# Instagram Clone - Stories Feature (Flutter + Supabase)
 
-A new Flutter project.
+This project is a basic Instagram clone focused on adding a **Stories** feature.  
+It uses **Flutter** for the frontend and **Supabase** for backend services like authentication, storage, and database.
+
+## Features
+- Upload story images from the device gallery
+- Store and retrieve story images using Supabase Storage
+- Save story metadata (user ID, image URL, timestamps) in Supabase Database
+- Show active (non-expired) stories in a horizontal scroll view
+- Add your own story with a simple button
+
+## Tech Stack
+- Flutter
+- Supabase
+- Provider (optional if state management is added later)
 
 ## Getting Started
+- Clone the repo
+- Set up Supabase project (auth, storage bucket, and `stories` table)
+- Run the app on your emulator or device
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Built with ❤️ using Flutter and Supabase.
